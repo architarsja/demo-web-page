@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Products</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, sans-serif;
+            background:#dcadad;
+            display: flex;
+            align-items:center;
+            justify-content:space-between;
+            height:100vh;
+        }
+        .left{
+            width:70%;
+            height:100%;
+            position:relative;
+            overflow:hidden;
+            margin: left;
+        }
+        .left img{
+            width:100%;
+            height:100%;
+            object-fit:cover;
+        }
+        .right{
+            width:60%;
+            padding:80px;
+        }
+        .right h1{
+            font-size:60px;
+            font-family: "Brush Script MT", cursive;
+            font-weight:normal;
+            line-height:1.2;
+            color:#222;
+            margin-bottom:25px;
+        }
+        .right p{
+            width:420px;
+            font-size:15px;
+            line-height:1.8;
+            color:black;
+            justify-content: center;
+            margin-bottom:35px;
+        }
+        .btn{
+            background:#000;
+            color:#fff;
+            text-decoration:none;
+            padding:15px 32px;
+            letter-spacing:2px;
+            font-size:12px;
+            transition: 0.3s;
+        }
+        .btn:hover{
+            background: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="left">
+        <img src="https://media.istockphoto.com/id/1494935138/photo/organic-cosmetics-with-ingredients.jpg?s=612x612&w=0&k=20&c=CU-pj99HM11FO2IDnQfBW_7lw7_0D-n_gBQaLmgc00Y=">
+    </div>
+    <div class="right">
+        <h1>Natural Beauty</h1>
+        <p>
+            Our natural beauty app brings you skincare products made with pure and organic ingredients.
+            Explore a wide range of herbal cosmetics designed to nourish and protect your skin naturally.
+            We focus on safe, chemical-free beauty solutions for healthy and glowing skin.
+            Experience the perfect blend of nature and skincare with products crafted for everyday care.
+            Feel confident and beautiful with the goodness of nature in every product.
+        </p>
+        <a href="#" class="btn">Learn More</a>
+    </div>
+</body>
+</html>
